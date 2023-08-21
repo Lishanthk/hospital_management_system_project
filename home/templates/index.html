@@ -1,0 +1,154 @@
+{% extends 'base.html' %}
+
+{% block title %}  Home {%endblock%}
+{% block content %}
+
+
+{% load static %}
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="{% static '/images/car1.jpg'%}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5> </h5>
+          <p>It doesn’t take an instant more, or cost a penny more, to be empathetic than it does to be indifferent</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="{% static '/images/car3.jpg'%}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p>You treat a disease, you win, you lose. You treat a person, I guarantee you, you’ll win, no matter what the outcome.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{% static '/images/car2.jpg'%}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p>Every client you keep, is one less that you need to find.</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <br>
+
+<div class=" mt-5">
+
+  <h5 class='text-center fs-1 fst-italic '> HOPE HOSPITAL CALICUT </h5>
+  <p class="mx-5">Hope Hospital otherwise known as Beach hospital, which is situated facing to Calicut Beach. The hospital has started in the year 1991. This hospital treated as a multispecialty referral hospital, which has constructed in the area of 12.75 hectares. The hospital has the following departments, such as MEDICINE, SURGERY, GYNAECOLOGY, PEDIATRICS, ORTHO, E.N.T, OPHTHALMOLOGY, CASUALITY, DIALYSIS UNIT, LABORATORY,ECG,X-RAY, TRANSGENDER CLINIC, MORBIDITY MANAGEMENT CLINIC, NCD CLINIC, ANESTHESIA, RADIOLOGY, ..</p>
+
+</div>
+<br>
+
+
+<div class='bg-info pt-5'>
+  
+  <h5 class='fs-1 mx-5 text-light badge bg-primary text-wrap'> We Provide Best Care </h5>
+  <p class="mx-5 text-white">Hope Hospital ensures to provide the highest quality of care and a transformative experience for all your healthcare needs. Our multi-specialty hospital equipped with specialised doctors, and world-class technology, bring global standards of medical care to our patients. </p>
+
+  <div class="card-group mx-5">
+    <div class="card">
+      <img src="{% static '/images/ist.jpg'%}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Bundle of Joy</h5>
+        <p class="card-text text-justify "> Bundle of Joy Package is offering exclusive pregnancy packages for the mother and baby. It encompasses prenatal and post-natal services that are tailor-made to match your needs. We offer specially crafted delivery packages with comprehensive care that are designed by keeping your health in mind.</p>
+      </div>
+      
+    </div>
+    <div class="card mx-5">
+      <img src="{% static '/images/family.jpg'%}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Best Health Packages</h5>
+        <p class="card-text">Hope hospital Calicut offers the best health packages that covers basic and premium health checkup packages at an affordable cost. Our packages includes list of tests, doctor consultations & more. We have crafted health packages for everyone including, senior citizens, adults, male and female, childrens, etc.</p>
+      </div>
+      
+    </div>
+    <div class="card">
+      <img src="{% static '/images/emer.jpeg'%}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Hope at home</h5>
+        <p class="card-text">The facilitated services will be provided for people who reside within 10 km of the hospital premise. The service can only be availed through booking and the time is scheduled between 9 am to 5 pm.</p>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+<div class="bg-info pt-5">
+  
+  <div class="card-group mx-5 ">
+    <div class="card">
+      <img src="{% static '/images/doccc.jpg'%}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Safety</h5>
+        <p class="card-text">In these unprecedented times, your safety is our prime concern so, that is why we adhere to strict infection control protocols to make your every visit safe and stress-free.</p>
+      </div>
+      
+    </div>
+    <div class="card mx-5">
+      <img src="{% static '/images/nu.jpg'%}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nurses are a unique kind</h5>
+        <p class="card-text">Nurses are there when the last breath is taken, and nurses are there when the first breath is taken. Although it is more enjoyable to celebrate the birth, it is just as important to comfort in death.</p>
+      </div>
+      
+    </div>
+    <div class="card">
+      <img src="{% static '/images/delivery.jpg'%}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Delivery</h5>
+        <p class="card-text">Hope Pharmacy is online now !!!
+          Order medicine at your convenience, we will deliver at your door step.
+          For ordering medicine whatsapp your prescription / medicine order to
+          9656 000 691</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="bg-info pt-5 mb-5">
+  
+  <div class="card-group mx-5 pb-5">
+    <div class="card">
+      <img src="{% static '/images/care.jpg'%}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Hope Charitable Trust</h5>
+        <p class="card-text">Aster MIMS Charitable Trust was incorporated in 2002 with genuine concern to lend a helping hand to the underprivileged to undergo expensive treatment including surgeries, organ transplants, dialysis at subsidized cost. The trust has extended its aid to patients in Aster MIMS Kottakkal also.</p>
+      </div>
+      
+    </div>
+    <div class="card mx-5">
+      <img src="{% static '/images/lab.jpg'%}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Labs</h5>
+        <p class="card-text">Medical laboratory scientists perform complex tests on patient samples using sophisticated equipment like microscopes. The data they find plays an important role in identifying and treating cancer, heart disease, diabetes, and other medical conditions..</p>
+      </div>
+      
+    </div>
+    <div class="card">
+      <img src="{% static '/images/eeee.jpg'%}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Critical Care</h5>
+        <p class="card-text">Aster MIMS is one of the best hospital for critical care in Calicut that provides better care with the support of patient- friendly physicians, nurses and inducing technology- driven methods for easy diagnosis of the diseases. The multidisciplinary team approach of dedicated physicians in the department has also paved the way for quick diagnosis and treatment.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+{%endblock%}
+

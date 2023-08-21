@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}  Department {%endblock%}
+{% block content %} 
+
+
+<div class='container text-center bg-light'>
+    {% for d in dept %}
+    <div class="card text-center mx-5 my-5" style="width: 18rem; display:inline-block">
+       
+        <div class="card-body">
+          <h5 class="card-title">{{d.dep_name}}</h5>
+          <p class="card-text">{{d.dep_description}}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+
+
+
+
+
+{%endblock%}
